@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    <Button
+        android:id="@+id/connectBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        />
+    <Button
+        android:id="@+id/disconnectBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        android:enabled="false"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer"
+        />
+    <TextView
+        android:id="@+id/aX"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="X: 0"
+        />
+    <TextView
+        android:id="@+id/aY"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Y: 0"
+        />
+    <TextView
+        android:id="@+id/aZ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Z: 0"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Orientation"
+        />
+    <TextView
+        android:id="@+id/oX"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="X: 0"
+        />
+    <TextView
+        android:id="@+id/oY"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Y: 0"
+        />
+    <TextView
+        android:id="@+id/oZ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Z: 0"
+        />
+    <TextView
+        android:id="@+id/isFall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fall Down (Yes/NO):"
+        />
+    <TextView
+        android:id="@+id/lngText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude:"
+        />
+    <TextView
+        android:id="@+id/latText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Latitude:"
+        />
+</LinearLayout>
